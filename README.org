@@ -1,0 +1,21 @@
+* brew theme
+
+  A dark theme for emacs, using mostly named Xrgb colors.
+
+** Install
+
+   Clone this repo, and symlink the theme to your ~custom-theme-directory~.
+   For example:
+
+   #+BEGIN_SRC
+   cd ~/etc
+   git clone https://github.com/rlister/brew-theme.git
+   cd ~/.emacs.d
+   ln -s ../etc/brew-theme/brew-theme.el .
+   #+END_SRC
+
+   and load it with ~M-x load-theme~ or:
+
+   #+BEGIN_SRC emacs-lisp
+   (load-theme 'brew t)
+   #+END_SRC
