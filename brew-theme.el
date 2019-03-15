@@ -372,7 +372,10 @@
 
    `(whitespace-newline ((t (:foreground "grey17"))))
 
+   ;; slack faces (uses lui)
    `(slack-message-output-header ((t (:foreground "goldenrod"))))
+   `(slack-message-output-text   ((t (:foreground "PaleGreen" :height 1.0))))
+   `(lui-button-face             ((t (:foreground "LightSlateBlue" :underline nil))))
    ))
 
 (provide-theme 'brew)
