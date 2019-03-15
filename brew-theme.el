@@ -32,6 +32,7 @@
    'brew
    `(default                    ((t (:foreground ,fg :background "Black"))))
    `(underline                  ((t (:underline nil)))) ;no underlines unless I ask for them
+   `(italic                     ((t (:underline nil :italic t))))
 
    `(mode-line ((t (:background "#444444" :foreground "#f6f3e8"))))
    `(mode-line-inactive ((t (:background "#222222" :foreground "#857b6f"))))
