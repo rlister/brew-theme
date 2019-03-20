@@ -33,6 +33,9 @@
    `(default                    ((t (:foreground ,fg :background "Black"))))
    `(underline                  ((t (:underline nil)))) ;no underlines unless I ask for them
    `(italic                     ((t (:underline nil :italic t))))
+   `(error                      ((t (:foreground "IndianRed"))))
+   `(warning                    ((t (:foreground "PaleGoldenrod"))))
+   `(success                    ((t (:foreground "PaleGreen"))))
 
    `(mode-line                  ((t (:background "#444444" :foreground "#f6f3e8")))) ; :box "PaleGreen"))))
    `(mode-line-inactive         ((t (:background "#222222" :foreground "#857b6f"))))
