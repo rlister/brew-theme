@@ -37,11 +37,11 @@
    `(warning                    ((t (:foreground "PaleGoldenrod"))))
    `(success                    ((t (:foreground "PaleGreen"))))
 
-   `(mode-line                  ((t (:background "#444444" :foreground "#f6f3e8")))) ; :box "PaleGreen"))))
+   `(mode-line                  ((t (:background "#444444" :foreground "PaleGreen3")))) ; :box "PaleGreen"))))
    `(mode-line-inactive         ((t (:background "#222222" :foreground "#857b6f"))))
    ;; `(mode-line                  ((t (:inherit default :font "Roboto" :overline "grey30")))) ;:box (:line-width 1 :color "grey30")))))
    ;; `(mode-line-inactive         ((t (:inherit mode-line :foreground "DarkSeaGreen4" :overline "grey20" :slant italic))))
-   `(mode-line-buffer-id        ((t (:foreground "#857b6f" :background nil :weight normal))))
+   `(mode-line-buffer-id        ((t (:foreground "PaleGreen" :background nil :weight normal))))
    `(mode-line-highlight        ((t (:foreground "Orange"))))
    `(mode-line-emphasis         ((t (:foreground "Cyan"))))
 
