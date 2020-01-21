@@ -381,7 +381,7 @@
    `(lui-button-face             ((t (:foreground "LightSlateBlue" :underline nil))))
    ))
 
-(provide-theme "brew")
+(provide-theme 'brew)
 
 ;; Local Variables:
 ;; no-byte-compile: t
