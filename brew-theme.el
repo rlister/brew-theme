@@ -79,11 +79,11 @@
  '(font-lock-warning-face              ((t (:foreground "PaleGoldenrod"))))
 
  ;; mode-line
- '(mode-line ((t (:foreground "PaleGreen3" :background "#444444"))))
+ '(mode-line           ((t (:foreground "PaleGreen3" :background "#444444"))))
  '(mode-line-buffer-id ((t (:weight normal :foreground "PaleGreen"))))
- '(mode-line-emphasis ((t (:foreground "Cyan"))))
+ '(mode-line-emphasis  ((t (:foreground "Cyan"))))
  '(mode-line-highlight ((t (:foreground "Orange"))))
- '(mode-line-inactive ((t (:foreground "#857b6f" :background "#222222"))))
+ '(mode-line-inactive  ((t (:foreground "#857b6f" :background "#222222"))))
 
  ;; show-paren
  '(show-paren-match           ((t (:foreground "PaleGreen"))))
