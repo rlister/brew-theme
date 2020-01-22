@@ -85,6 +85,14 @@
  '(mode-line-highlight ((t (:foreground "Orange"))))
  '(mode-line-inactive  ((t (:foreground "#857b6f" :background "#222222"))))
 
+ ;; ansi color map for various term modes
+ '(term-color-cyan    ((t (:foreground "DarkSlateGray3"))))
+ '(term-color-blue    ((t (:foreground "RoyalBlue"))))
+ '(term-color-red     ((t (:foreground "IndianRed"))))
+ '(term-color-green   ((t (:foreground "PaleGreen3"))))
+ '(term-color-yellow  ((t (:foreground "LightGoldenrod"))))
+ '(term-color-magenta ((t (:foreground "magenta3"))))
+
  ;; show-paren
  '(show-paren-match           ((t (:foreground "PaleGreen"))))
  '(show-paren-mismatch        ((t (:foreground "IndianRed"))))
