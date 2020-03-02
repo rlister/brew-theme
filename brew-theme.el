@@ -221,6 +221,19 @@
  '(slack-message-output-header ((t (:foreground "goldenrod"))))
  '(slack-message-output-text   ((t (:foreground "PaleGreen" :height 1.0))))
  '(lui-button-face             ((t (:foreground "LightSlateBlue" :underline nil))))
+
+ ;; mew
+ '(mew-face-header-important ((t (:foreground "grey"))))
+ '(mew-face-header-key       ((t (:foreground "grey"))))
+ '(mew-face-header-subject   ((t (:foreground "IndianRed"))))
+ '(mew-face-header-from      ((t (:foreground "PaleGoldenrod"))))
+ '(mew-face-header-to        ((t (:foreground "pink"))))
+ '(mew-face-header-date      ((t (:foreground "PaleGreen"))))
+ '(mew-face-header-marginal  ((t (:foreground "SkyBlue"))))
+ '(mew-face-header-xmew      ((t (:foreground "goldenrod"))))
+ '(mew-face-eof-message      ((t (:foreground "PaleGreen"))))
+ '(mew-face-body-url         ((t (:foreground "CornflowerBlue"))))
+ '(mew-face-mark-delete      ((t (:foreground "IndianRed4" :strike-through nil))))
 )
 
 (provide-theme 'brew)
