@@ -217,6 +217,17 @@
  '(avy-lead-face-1 ((t (:foreground "RoyalBlue"))))
  '(avy-lead-face-2 ((t (:foreground "PaleGreen"))))
 
+ ;; inherited by some other pkgs
+ '(message-header-name    ((t (:foreground "PaleGreen"))))
+ '(message-header-subject ((t (:foreground "LightGoldenRod"))))
+
+ ;; elfeed
+ '(elfeed-search-date-face         ((t (:foreground "RoyalBlue"))))
+ '(elfeed-search-title-face        ((t (:inherit org-done)))) ;read messages
+ '(elfeed-search-unread-title-face ((t (:inherit default :strike-through nil))))
+ '(elfeed-search-feed-face         ((t (:foreground "LightGoldenRod"))))
+ '(elfeed-search-tag-face          ((t (:foreground "PaleGreen"))))
+
  ;; slack faces (uses lui)
  '(slack-message-output-header ((t (:foreground "goldenrod"))))
  '(slack-message-output-text   ((t (:foreground "PaleGreen" :height 1.0))))
