@@ -54,7 +54,8 @@
  '(link            ((t (:foreground "PaleGreen"))))
  '(link-visited    ((t (:foreground "magenta4"))))
  '(fringe          ((t (:background "Black"))))
- '(header-line     ((t (:inherit default))))
+ ;; '(header-line     ((t (:inherit default))))
+ '(header-line     ((t (:foreground "MediumAquamarine" :background "grey13"))))
  '(tooltip         ((t (:foreground "PaleGreen3" :background "grey20" :inherit variable-pitch))))
  '(menu            ((t (:background "grey20"))))
  '(scroll-bar      ((t (:background "grey20"))))
@@ -79,7 +80,8 @@
  '(font-lock-warning-face              ((t (:foreground "PaleGoldenrod"))))
 
  ;; mode-line
- '(mode-line           ((t (:foreground "PaleGreen3" :background "#444444"))))
+ ;; '(mode-line           ((t (:foreground "PaleGreen3" :background "#444444"))))
+ '(mode-line           ((t (:foreground "SkyBlue2" :background "#444444"))))
  '(mode-line-buffer-id ((t (:weight normal :foreground "PaleGreen"))))
  '(mode-line-emphasis  ((t (:foreground "Cyan"))))
  '(mode-line-highlight ((t (:foreground "Orange"))))
@@ -137,10 +139,10 @@
  '(org-ellipsis                  ((t (:inherit font-lock-comment-face))))
  '(org-formula                   ((t (:foreground "PaleGoldenrod"))))
  '(org-hide                      ((t (:foreground "grey20"))))
- '(org-link                      ((t (:foreground "LightSlateBlue" :slant normal :underline t))))
+ '(org-link                      ((t (:foreground "LightSlateBlue" :slant normal :underline nil))))
  '(org-sexp-date                 ((t (:foreground "SlateBlue3"))))
  '(org-scheduled                 ((t (:inherit font-lock-comment-face))))
- '(org-scheduled-previously      ((t (:foreground "PaleGoldenrod"))))
+ '(org-scheduled-previously      ((t (:foreground "CornflowerBlue"))))
  '(org-scheduled-today           ((t (:foreground "PaleGreen"))))
  '(org-special-keyword           ((t (:inherit font-lock-comment-face))))
  '(org-table                     ((t (:foreground "PaleGreen"))))
@@ -251,6 +253,10 @@
  '(mew-face-body-cite3       ((t (:foreground "LightPink4"))))
  '(mew-face-body-cite4       ((t (:foreground "LightYellow4"))))
  '(mew-face-body-cite5       ((t (:foreground "IndianRed4"))))
+
+ ;; twit
+ '(twittering-username-face ((t (:foreground "SkyBlue" :underline nil))))
+ '(twittering-uri-face      ((t (:foreground "CornflowerBlue" :underline nil))))
 )
 
 (provide-theme 'brew)
