@@ -254,6 +254,12 @@
  '(mew-face-body-cite4       ((t (:foreground "LightYellow4"))))
  '(mew-face-body-cite5       ((t (:foreground "IndianRed4"))))
 
+ '(erc-prompt-face    ((t (:foreground "MediumAquamarine" :underline nil))))
+ '(erc-timestamp-face ((t (:foreground "PaleGreen" :underline nil))))
+ '(erc-input-face     ((t (:foreground "SlateBlue" :underline nil))))
+ '(erc-my-nick-face   ((t (:foreground "IndianRed" :underline nil))))
+ '(erc-error-face     ((t (:foreground "IndianRed" :underline nil))))
+
  ;; twit
  '(twittering-username-face ((t (:foreground "SkyBlue" :underline nil))))
  '(twittering-uri-face      ((t (:foreground "CornflowerBlue" :underline nil))))
