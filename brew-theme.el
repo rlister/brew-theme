@@ -231,9 +231,14 @@
  '(elfeed-search-tag-face          ((t (:foreground "PaleGreen"))))
 
  ;; slack faces (uses lui)
- '(slack-message-output-header ((t (:foreground "goldenrod"))))
- '(slack-message-output-text   ((t (:foreground "PaleGreen" :height 1.0))))
+ '(slack-message-output-header ((t (:foreground "CornflowerBlue"))))
+ '(slack-message-output-text   ((t (:foreground "SkyBlue" :height 1.0))))
+ '(slack-message-output-reaction ((t (:foreground "grey40"))))
+ '(slack-new-message-marker-face ((t (:foreground "grey30"))))
+ '(slack-message-mention-face    ((t (:foreground "MediumAquamarine"))))
+ '(slack-select-block-element-face ((t (:foreground "PaleGreen4"))))
  '(lui-button-face             ((t (:foreground "LightSlateBlue" :underline nil))))
+ '(lui-time-stamp-face         ((t (:foreground "PaleGreen"))))
 
  ;; mew
  '(mew-face-header-important ((t (:foreground "grey"))))
