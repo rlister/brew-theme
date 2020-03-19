@@ -199,6 +199,9 @@
  '(magit-diff-none                   ((t (:foreground "grey37"))))
  '(magit-reflog-commit               ((t (:foreground "PaleGreen"))))
 
+ '(smerge-refined-removed ((t (:background "IndianRed4"))))
+ '(smerge-upper           ((t (:background "IndianRed3"))))
+
  ;; eshell
  '(eshell-prompt       ((t (:foreground "RoyalBlue"))))
  '(eshell-ls-directory ((t (:foreground "SkyBlue"))))
