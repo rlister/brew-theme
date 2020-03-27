@@ -81,7 +81,8 @@
 
  ;; mode-line
  ;; '(mode-line           ((t (:foreground "PaleGreen3" :background "#444444"))))
- '(mode-line           ((t (:foreground "SkyBlue2" :background "#444444"))))
+ ;; '(mode-line           ((t (:foreground "SkyBlue2" :background "#444444"))))
+ '(mode-line           ((t (:foreground "aquamarine3" :background "#444444"))))
  '(mode-line-buffer-id ((t (:weight normal :foreground "PaleGreen"))))
  '(mode-line-emphasis  ((t (:foreground "Cyan"))))
  '(mode-line-highlight ((t (:foreground "Orange"))))
