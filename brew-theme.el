@@ -273,6 +273,13 @@
  ;; twit
  '(twittering-username-face ((t (:foreground "SkyBlue" :underline nil))))
  '(twittering-uri-face      ((t (:foreground "CornflowerBlue" :underline nil))))
+
+ ;; markdown
+ '(markdown-pre-face ((t (:inherit default :foreground "PaleGreen4"))))
+ '(markdown-code-face ((t (:inherit default :foreground "DodgerBlue2"))))
+
+ ;; sh-mode
+ '(sh-heredoc ((t (:foreground "PaleGoldenrod"))))
 )
 
 (provide-theme 'brew)
