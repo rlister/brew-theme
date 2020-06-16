@@ -96,6 +96,16 @@
  '(term-color-yellow  ((t (:foreground "LightGoldenrod"))))
  '(term-color-magenta ((t (:foreground "magenta3"))))
 
+ ;; vterm ansi faces, fg is ansi 0-7, bg is ansi 8-15
+ '(vterm-color-black   ((t (:foreground "SlateGrey"     :background "LightSlateGrey"))))
+ '(vterm-color-red     ((t (:foreground "IndianRed"     :background "IndianRed1"))))
+ '(vterm-color-green   ((t (:foreground "PaleGreen"     :background "PaleGreen1"))))
+ '(vterm-color-yellow  ((t (:foreground "PaleGoldenrod" :background "LightGoldenrod"))))
+ '(vterm-color-blue    ((t (:foreground "RoyalBlue"     :background "RoyalBlue1"))))
+ '(vterm-color-magenta ((t (:foreground "MediumPurple"  :background "MediumPurple1"))))
+ '(vterm-color-cyan    ((t (:foreground "cyan3"         :background "cyan1"))))
+ '(vterm-color-white   ((t (:foreground "azure4"        :background "azure1"))))
+
  ;; show-paren
  '(show-paren-match           ((t (:foreground "PaleGreen"))))
  '(show-paren-mismatch        ((t (:foreground "IndianRed"))))
