@@ -210,8 +210,9 @@
  '(magit-diff-none                   ((t (:foreground "grey37"))))
  '(magit-reflog-commit               ((t (:foreground "PaleGreen"))))
 
- '(smerge-refined-removed ((t (:background "IndianRed4"))))
- '(smerge-upper           ((t (:background "IndianRed3"))))
+ '(smerge-refined-removed ((t (:background "#333300000000"))))
+ '(smerge-upper           ((t (:background "#444400000000"))))
+ '(smerge-lower           ((t (:background "#00002b2b0000"))))
 
  ;; eshell
  '(eshell-prompt       ((t (:foreground "RoyalBlue"))))
