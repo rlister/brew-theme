@@ -253,6 +253,7 @@
  '(slack-message-mention-face    ((t (:foreground "MediumAquamarine"))))
  '(slack-channel-button-face     ((t (:foreground "MediumAquamarine"))))
  '(slack-select-block-element-face ((t (:foreground "PaleGreen4"))))
+ '(slack-preview-face ((t (:foreground "PaleGreen" :background "grey10"))))
  '(lui-button-face             ((t (:foreground "LightSlateBlue" :underline nil))))
  '(lui-time-stamp-face         ((t (:foreground "PaleGreen"))))
 
