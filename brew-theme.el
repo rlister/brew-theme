@@ -101,8 +101,8 @@
  '(vterm-color-red     ((t (:foreground "IndianRed"     :background "IndianRed1"))))
  '(vterm-color-green   ((t (:foreground "PaleGreen"     :background "PaleGreen1"))))
  '(vterm-color-yellow  ((t (:foreground "PaleGoldenrod" :background "LightGoldenrod"))))
- '(vterm-color-blue    ((t (:foreground "RoyalBlue"     :background "RoyalBlue1"))))
- '(vterm-color-magenta ((t (:foreground "MediumPurple"  :background "MediumPurple1"))))
+ '(vterm-color-blue    ((t (:foreground "DodgerBlue"     :background "DodgerBlue1"))))
+ '(vterm-color-magenta ((t (:foreground "#B5A0FF"  :background "MediumPurple1"))))
  '(vterm-color-cyan    ((t (:foreground "cyan3"         :background "cyan1"))))
  '(vterm-color-white   ((t (:foreground "azure4"        :background "azure1"))))
 
