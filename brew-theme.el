@@ -51,7 +51,7 @@
  ;; UI elements
  '(button          ((t (:box nil :foreground "CadetBlue" :background "grey10"))))
  '(border          ((t (:background "grey10"))))
- '(link            ((t (:foreground "PaleGreen"))))
+ '(link            ((t (:foreground "RoyalBlue"))))
  '(link-visited    ((t (:foreground "magenta4"))))
  '(fringe          ((t (:background "Black"))))
  ;; '(header-line     ((t (:inherit default))))
