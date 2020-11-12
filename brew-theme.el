@@ -226,6 +226,10 @@
  '(ivy-minibuffer-match-face-3 ((t (:foreground "goldenrod3"))))
  '(ivy-minibuffer-match-face-4 ((t (:foreground "goldenrod4"))))
 
+ ;; selectrum
+ '(selectrum-current-candidate ((t (:foreground nil :background "SlateBlue4"))))
+ '(selectrum-primary-highlight ((t (:foreground "goldenrod"))))
+
  ;; dired
  '(dired-directory ((t (:foreground "LightSkyBlue"))))
 
