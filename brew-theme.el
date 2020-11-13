@@ -90,6 +90,9 @@
  '(mode-line-highlight ((t (:foreground "Orange"))))
  '(mode-line-inactive  ((t (:foreground "#857b6f" :background "#222222"))))
 
+ ;; other builtins
+ '(help-argument-name ((t (:foreground "RoyalBlue"))))
+
  ;; ansi color map for various term modes
  '(term-color-cyan    ((t (:foreground "DarkSlateGray3"))))
  '(term-color-blue    ((t (:foreground "RoyalBlue"))))
