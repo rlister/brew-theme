@@ -29,6 +29,7 @@
  ;; standard faces https://www.gnu.org/software/emacs/manual/html_node/emacs/Standard-Faces.html
  '(default             ((t (:foreground "azure4" :background "Black"))))
  '(variable-pitch      ((t (:inherit default))))
+ '(italic              ((t (:slant italic :underline nil))))
  '(cursor              ((t (:background "PaleGreen"))))
  '(underline           ((t (:underline nil)))) ;no underlines unless I ask for it
  '(fixed-pitch         ((t (:family "Monospace"))))
