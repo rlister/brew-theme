@@ -84,7 +84,7 @@
  ;; mode-line
  ;; '(mode-line           ((t (:foreground "PaleGreen3" :background "#444444"))))
  ;; '(mode-line           ((t (:foreground "SkyBlue2" :background "#444444"))))
- '(mode-line           ((t (:foreground "aquamarine3" :background "#444444"))))
+ '(mode-line           ((t (:foreground "aquamarine3" :background "#222222"))))
  '(mode-line-buffer-id ((t (:weight normal :foreground "PaleGreen"))))
  '(mode-line-emphasis  ((t (:foreground "Cyan"))))
  '(mode-line-highlight ((t (:foreground "Orange"))))
@@ -214,6 +214,7 @@
  '(magit-diff-context-highlight      ((t (:inherit font-lock-comment-face))))
  '(magit-diff-none                   ((t (:foreground "grey37"))))
  '(magit-reflog-commit               ((t (:foreground "PaleGreen"))))
+ '(magit-section-highlight           ((t (:background "gray10"))))
 
  '(smerge-refined-removed ((t (:background "#333300000000"))))
  '(smerge-upper           ((t (:background "#444400000000"))))
