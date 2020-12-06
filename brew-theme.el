@@ -232,7 +232,7 @@
  '(ivy-minibuffer-match-face-4 ((t (:foreground "goldenrod4"))))
 
  ;; selectrum
- '(selectrum-current-candidate ((t (:foreground nil :background "SlateBlue4"))))
+ '(selectrum-current-candidate ((t (:foreground "aquamarine3" :background "#222222"))))
  '(selectrum-primary-highlight ((t (:foreground "goldenrod"))))
 
  ;; dired
