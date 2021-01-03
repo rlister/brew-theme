@@ -302,6 +302,10 @@
 
  ;; sh-mode
  '(sh-heredoc ((t (:foreground "PaleGoldenrod"))))
+
+ ;; eww
+ '(eww-form-submit ((t (:foreground "grey37" :background "Black"))))
+ '(eww-form-text ((t (:foreground "PaleGreen" :background "#222222"))))
 )
 
 (provide-theme 'brew)
