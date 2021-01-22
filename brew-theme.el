@@ -40,7 +40,7 @@
  '(region              ((t (:extend t :background "MidnightBlue"))))
  '(secondary-selection ((t (:extend t :background "grey37"))))
  '(trailing-whitespace ((t (:background "grey17"))))
- '(isearch             ((t (:foreground "LightGoldenrod" :background "grey20"))))
+ '(isearch             ((t (:background "PaleGreen"))))
  '(isearch-fail        ((t (:foreground "IndianRed" :background "grey10"))))
  '(lazy-highlight      ((t (:foreground "DarkGoldenrod" :background "grey10"))))
  '(match               ((t (:foreground "azure4" :background "grey20"))))
