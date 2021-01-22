@@ -36,7 +36,7 @@
  '(escape-glyph        ((t (:foreground "Cyan"))))
  '(homoglyph           ((t (:foreground "Cyan"))))
  '(minibuffer-prompt   ((t (:foreground "PaleGreen"))))
- '(highlight           ((t (:underline nil :background "grey20"))))
+ '(highlight           ((t (:underline nil :background "grey10"))))
  '(region              ((t (:extend t :background "MidnightBlue"))))
  '(secondary-selection ((t (:extend t :background "grey37"))))
  '(trailing-whitespace ((t (:background "grey17"))))
@@ -88,7 +88,7 @@
  '(mode-line-buffer-id ((t (:weight normal :foreground "PaleGreen"))))
  '(mode-line-emphasis  ((t (:foreground "Cyan"))))
  '(mode-line-highlight ((t (:foreground "Orange"))))
- '(mode-line-inactive  ((t (:foreground "#857b6f" :background "#222222"))))
+ '(mode-line-inactive  ((t (:foreground "#857b6f" :background "#111111"))))
 
  ;; other builtins
  '(help-argument-name ((t (:foreground "RoyalBlue"))))
@@ -194,11 +194,16 @@
  '(org-mode-line-clock-overrun   ((t (:inherit modeline :background "IndianRed4"))))
 
  ;; diff
- '(diff-context     ((t :inherit font-lock-comment-face)))
- '(diff-header      ((t :background "grey25")))
- '(diff-file-header ((t :background "grey25" :foreground "SkyBlue")))
- '(diff-hunk-header ((t :background "grey20")))
- '(diff-added       ((t :foreground "PaleGreen")))
+ '(diff-context           ((t :inherit font-lock-comment-face)))
+ '(diff-header            ((t (:background "grey10"))))
+ '(diff-file-header       ((t (:foreground "CornflowerBlue"))))
+ '(diff-hunk-header       ((t (:foreground "CornflowerBlue" :background "grey17"))))
+ '(diff-indicator-added   ((t (:foreground "PaleGreen"))))
+ '(diff-added             ((t (:foreground "PaleGreen"))))
+ '(diff-refine-added      ((t (:foreground "PaleGreen" :background "gray15"))))
+ '(diff-indicator-removed ((t (:foreground "IndianRed"))))
+ '(diff-removed           ((t (:foreground "IndianRed"))))
+ '(diff-refine-removed    ((t (:foreground "IndianRed" :background "gray15"))))
 
  ;; magit
  '(magit-header                      ((t (:weight bold))))
@@ -306,6 +311,7 @@
  ;; eww
  '(eww-form-submit ((t (:foreground "grey37" :background "Black"))))
  '(eww-form-text ((t (:foreground "PaleGreen" :background "#222222"))))
+ '(eww-form-select ((t (:foreground "MediumAquamarine"))))
 )
 
 (provide-theme 'brew)
