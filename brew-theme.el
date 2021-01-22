@@ -312,6 +312,22 @@
  '(eww-form-submit ((t (:foreground "grey37" :background "Black"))))
  '(eww-form-text ((t (:foreground "PaleGreen" :background "#222222"))))
  '(eww-form-select ((t (:foreground "MediumAquamarine"))))
+
+ ;; w3m
+ '(w3m-bold ((t (:foreground "PaleGoldenrod"))))
+ '(w3m-tab-background ((t (:background "Black"))))
+ '(w3m-tab-selected ((t (:foreground "MediumAquamarine" :background "Black"))))
+ '(w3m-tab-unselected ((t (:foreground "grey37" :background "Black"))))
+ '(w3m-tab-selected-retrieving ((t (:foreground "IndianRed" :background "Black"))))
+ '(w3m-tab-unselected-retrieving ((t (:foreground "IndianRed" :background "Black"))))
+ '(w3m-tab-unselected-unseen ((t (:foreground "IndianRed4" :background "Black"))))
+ '(w3m-anchor ((t (:foreground "DodgerBlue"))))
+ '(w3m-image ((t (:foreground "gray37"))))
+ '(w3m-image-anchor ((t (:foreground "gray37"))))
+ '(w3m-arrived-anchor ((t (:foreground "CornflowerBlue"))))
+ '(w3m-current-anchor ((t (:foreground "PaleGreen"))))
+ '(w3m-form ((t (:foreground "SlateBlue" :background "#222222"))))
+ '(w3m-form-button ((t (:foreground "RoyalBlue" :background "#222222"))))
 )
 
 (provide-theme 'brew)
